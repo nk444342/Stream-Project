@@ -1,11 +1,11 @@
 #! /bin/bash
-var1=10
-var2=20
+int1=$1
+int2=$2
 
-if [ $var1 -gt $var2 ]; then
+if [ $int1 -gt $int2 ]; then
 echo "success"
 
 else
-echo "$var1 is not greater than $var2"
+echo "$int1 is not greater than $int2"
 fi
 
